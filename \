@@ -1,0 +1,12 @@
+<script lang="ts">
+    import UserInput from "../components/UserInput.svelte";
+    import MessageList from "../components/MessageList.svelte"
+</script>
+
+<body class="absolute inset-0 flex justify-center">
+  <div class="flex flex-col justify-center items-between">
+    <MessageList />
+    <UserInput />
+  </div>
+</body> 
+

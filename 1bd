@@ -1,0 +1,9 @@
+<script>
+  let currentPrompt = '';
+</script>
+
+<form class="input-group input-group-divider grid-cols-[auto_1fr_auto] rounded-container-token">
+  <textarea bind:value={currentPrompt} name="prompt" id="prompt" rows="1" placeholder="Prompt..." class="resize-none bg-transparent border-0 ring-0" />
+  <button class="variant-filled-primary">Send</button>
+</form>
+
